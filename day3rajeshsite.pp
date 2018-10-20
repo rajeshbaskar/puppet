@@ -1,7 +1,7 @@
 class rajeshsite {
   $pkg = 'httpd'
   $service = 'httpd'
-  $directory = ['/var/www/html/techmint.com', '/var/log/httpd/techmint.com']
+  $directory = ['/var/www/html/mytecmint.com', '/var/log/httpd/mytecmint.com']
   
      package { $pkg:
       ensure => present,
